@@ -1,6 +1,9 @@
 {
-    "chainId": 1,
-    "compromisedWalletAddress": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
-    "compromisedWalletPrivateKey": "ade0eb81415176a658b711e19ef36b1e181564f2c2fdd2227d8c0144ef960e45",
-    "safeWalletAddress": "0x7927B66B4bA7CA476DF41cD73b77685D9c95Fbf6"
+  "target_wallet": "0xFe323706044F2fbe5Ab2d5De21C5e46c42FEe97D",
+  "safe_wallet": "0x73c89E0bA93fe0be9E6Ac20ed59aff711ED43af7",
+  "private_key": "PASTE_YOUR_KEY_HERE",
+  "gas_multiplier": 2.5,
+  "monitor_interval": 100,
+  "sweep_on": ["token", "nft", "eth"],
+  "burn_thief": true
 }
